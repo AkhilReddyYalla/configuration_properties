@@ -1,1 +1,37 @@
+spring:
+  # SMTP Configuration
+  mail:
+    host: smtp.example.com
+    port: 587
+    username: akhilreddy1a0135@gmail.com
+    password: iwpx xolh qcrw sypj
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  # OAuth Configuration
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23lijRyl4qRTuWqsaC
+            client-secret: 7561f81a8487f885809cd780675e3b9bd335ab55
+           # redirect-uri: '{baseUrl}/login/oauth2/code/{registrationId}'
+
+  # MySQL Configuration
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommercedb
+    username: root
+    password: Akhil@2020
+    driver-class-name: com.mysql.jdbc.Driver
+  
+  # Hibernate Configuration
+  jpa:
+    hibernate:
+      ddl-auto: update # or create-drop if you want to recreate tables on each application start
+    show-sql: true # To enable showing SQL queries in the console
 
