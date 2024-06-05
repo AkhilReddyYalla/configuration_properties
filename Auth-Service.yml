@@ -6,7 +6,7 @@ spring:
         url: http://localhost:1111/
   datasource:
     password: Akhil@2020
-    url: jdbc:mysql://localhost:3306/akhilreddydb
+    url: jdbc:mysql://localhost:3306/ecommercedb
     username: root
   jpa:
     hibernate:
