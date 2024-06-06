@@ -1,4 +1,5 @@
-
+server:
+  port: 8081
 spring:
   boot:
     admin:
@@ -18,8 +19,5 @@ management:
     web:
       cors:
         exposed-headers: '*'
-        
-  server:
-    port: 8081
 
  
